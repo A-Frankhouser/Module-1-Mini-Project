@@ -1,0 +1,117 @@
+/*Global Selector*/
+* {
+   margin:2px;
+   padding:0px; 
+}
+/* Element Section*/
+Body {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(192, 189, 179);
+    color: Black;
+}
+
+h1,h2 {
+    margin: 40px;
+}
+
+main {
+    padding: 40px;
+
+}
+
+
+li { 
+    padding: 10px 20px;
+    display:inline;
+    text-decoration:none;
+    font-size: x-large;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+header,footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color:rgb(238, 119, 8);    
+}
+
+header {
+    position: fixed;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+footer {
+    position: absolute;
+    margin-top: 20px;
+    bottom: 0px;
+    border-bottom: 10px solid black;
+    color: white;
+    border-top: 10px solid black;
+}
+
+figure {
+    margin-bottom: 60px;
+
+}
+
+img {
+    display:block;
+    margin:  40px;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 50px ;
+    padding: 30px;
+    border-top: 5px solid black ;
+    border-bottom: 5px solid black;
+    background-color:rgb(102, 102, 57) ;
+    margin-top: 20px;
+    
+}
+
+form {
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px ;
+    border: 10px solid black;
+    border-radius: 20px ;
+}
+
+label {
+    display: inline-block ;
+    width: 20px;
+}
+
+input,
+textarea {
+    box-sizing: border-box ;
+
+    border: 3px solid black;
+}
+
+button {
+    height: 30px;
+    width: 120px ;
+    background-color: gray ;
+    color: black;
+}
+
+/*Class Selectors*/
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
